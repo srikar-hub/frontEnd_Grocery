@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".home_fragment">
 
     <LinearLayout
@@ -514,6 +515,56 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/bottomNav"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="56dp"-->
+    <!--        android:background="#FFFFFF"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="24dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_home"-->
+    <!--            android:tint="#4CAF50" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="24dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_search"-->
+    <!--            android:tint="#999999" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="24dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_cart"-->
+    <!--            android:tint="#999999" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="24dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_favorite"-->
+    <!--            android:tint="#999999" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="24dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_person"-->
+    <!--            android:tint="#999999" />-->
+    <!--    </LinearLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

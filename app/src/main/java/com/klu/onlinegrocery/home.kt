@@ -20,7 +20,7 @@ class home : AppCompatActivity() {
         bottomnav.setOnItemSelectedListener {
                 item->when(item.itemId){
             R.id.nav_dashboard->loadFragment(home_fragment())
-            R.id.nav_search->loadFragment(search_fragment())
+            R.id.nav_search->loadFragment(search_fragmant_1())
             R.id.nav_profile->loadFragment(profile_fragment())
             R.id.nav_fees->loadFragment(fees_fragment())
         }
