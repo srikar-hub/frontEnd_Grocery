@@ -6,4 +6,9 @@
     <color name="red">#B82132</color>
     <color name="blue">#577BC1</color>
     <color name="grey">#3B3B3B</color>
+    <color name="recipe_primary_color">#FF6347</color>
+    <color name="recipe_accent_color">#4CAF50</color>
+    <color name="text_gray">#666666</color>
+    <color name="divider_gray">#CCCCCC</color>
+    <color name="light_cream_background">#FFF7E6</color>
 </resources>

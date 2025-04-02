@@ -13,10 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        var getStartedButton = findViewById<Button>(R.id.getStartedButton)
-        getStartedButton.setOnClickListener{
-            var gsbIntent = Intent(this,signup::class.java)
-            startActivity(gsbIntent)
-        }
     }
 }
+
